@@ -1,0 +1,21 @@
+body {
+    background-color: aquamarine;
+}
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* for IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* for Safari */
+}
+
+.image {
+    height: 500px;
+}
+
+.pera {
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(255, 81, 0);
+}
